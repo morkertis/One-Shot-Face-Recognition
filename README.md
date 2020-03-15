@@ -10,7 +10,8 @@ Given two facial image of previously unseen persons, our SNN will try and determ
 
 Sklearn API:
 In order to use the dataset with sklearn, we have changed the function fetch_lfw_pairs: 
-1.	Change the function that will support one channel picture
+1.	Change the function that will support one channel picture 
+  -the change in sklearn\datasets\lfw.py --> added code
 2.	Redirector / Change to our [dataset LFW-a](http://vis-www.cs.umass.edu/lfw/index.html#views) instead of the existing one, and not download the matching dataset (LFW).
 
 
