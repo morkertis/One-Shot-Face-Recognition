@@ -8,7 +8,12 @@ In order to achieve this goal, we implemented a Siamese Neural Network(SNN), acc
 Our main goal was to successfully execute a one-shot learning task for previously unseen objects.
 Given two facial image of previously unseen persons, our SNN will try and determine whether they are the same person.
 
-In addition, for import the photos we change the part of sklearn API.
+Sklearn API:
+In order to use the dataset with sklearn, we have changed the function fetch_lfw_pairs: 
+1.	Change the function that will support one channel picture
+2.	Redirect/ to our dataset (LFW-a) instead of the existing one, and not download the matching dataset (LFW).
+
+
 
 
 references:
