@@ -14,7 +14,7 @@ In order to use the dataset with sklearn, we have changed the function fetch_lfw
   - the change in sklearn\datasets\lfw.py --> comment added code
 2.	Redirector / Change to our [dataset LFW-a](http://vis-www.cs.umass.edu/lfw/index.html#views) instead of the existing one, and not download the matching dataset (LFW).
 
-[siamese neural networks](https://github.com/morkertis/One-Shot-Face-Recognition/blob/master/figures/siamese%20neural%20networks_v2.jpg)
+![siamese neural networks](https://github.com/morkertis/One-Shot-Face-Recognition/blob/master/figures/siamese%20neural%20networks_v2.jpg)
 
 
 references:
